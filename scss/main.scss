@@ -1,0 +1,16 @@
+@charset "utf-8";
+@import "variable";
+*{
+  margin: 0;
+  padding:0;
+}
+a{
+  text-decoration: none;
+  color:#888888;
+}
+ul{
+  list-style: none;
+}
+body{
+  font-size:$base_fontSize;
+}

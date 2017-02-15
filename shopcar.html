@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="css/shopcar.css">
+    <script src="js/lib/angular/angular.min.js"></script>
+</head>
+<body ng-app="mycount">
+<div id="container">
+    <!--头部-->
+    <div id="top">
+        <h1>
+            <a href=""><img src="images/shopcar-pic/1.png" alt=""></a>
+        </h1>
+        <p>客服热线(免长途费)：<b style="color: red">400-888-4499</b><a href="">在线客服</a></p>
+        <p>您好!欢迎光临走秀网! <a href="">[ 登录/注册 ] |</a> <a href="">帮助中心</a></p>
+    </div>
+    <!--导航条-->
+    <div class="shop_list">
+        <ul class="st_ul">
+            <li>
+                <span class="sli_on"></span>
+                1.我的购物袋
+            </li>
+            <li>
+                <span class="sli_of"></span>
+                2.填写并合并订单信息
+            </li>
+            <li>
+                <span class="sli_un"></span>
+                3.成功提交订单
+            </li>
+        </ul>
+    </div>
+    <!--购买商品-->
+    <div class="goshop">
+        <div class="gs1">
+            <input type="checkbox">
+            <span>全选</span>
+            <span>商品</span>
+            <span>购买价（元）</span>
+            <span>小计（元）</span>
+            <span>数量</span>
+            <span>操作</span>
+        </div>
+        <div class="gs2" ng-controller="myCtrl">
+            <span><input type="checkbox"></span>
+            <span><img src="images/shopcar-pic/3.jpg" alt=""></span>
+            <span>
+                <p>Thom Browne</p>
+                <p><a href="">男士条纹拼接双肩包</a></p>
+                <p>颜色 : 蓝色 尺码 : F</p>
+                <div>不可用优惠券</div>
+            </span>
+            <span>￥19800</span>
+            <span>{{count * 19800 | currency:"￥"}}</span>
+            <span>
+                <button ng-click="count = count -1">-</button>
+                <input type="text" ng-model = "count" />
+                <button ng-click="count = count +1">+</button>
+            </span>
+            <span>
+                <a href="">移至收藏夹</a>
+                <a href="">删除</a>
+            </span>
+        </div>
+    </div>
+
+    <div class="count">
+        <input type="checkbox">
+        <span>全选</span>
+        <span>删除</span>
+        <span>清楚失效商品</span>
+        <span>移至收藏夹</span>
+        <span>已选商品 <b>1</b>件</span>
+        <span>总计 <b>(不含运费)</b><em>{{$ctrl.count * 19800}}</em></span>
+        <span>结算</span>
+    </div>
+    <div class="set_far">
+        <b></b>
+        <h2>请 <a href="">登录</a>后查看您收藏的商品</h2>
+    </div>
+    <div class="M_s">
+        <p>Copyright © 2008-2017 Xiu.com深圳走秀网络科技有限公司 版权所有 . <a href="">粤ICP备07502993号</a></p>
+    </div>
+</div>
+
+<script>
+    var app = angular.module("mycount",[]);
+    app.controller("myCtrl",function($scope){
+        $scope.count = 1;
+    })
+</script>
+</body>
+</html>

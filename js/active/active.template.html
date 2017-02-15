@@ -1,0 +1,31 @@
+<div class="container">
+    <div class="ig">
+        <img src="images/prodect-pic/001.jpg" alt="">
+    </div>
+    <div class="xq">
+        <p>相亲必备</p>
+        <a href="">更多</a>
+    </div>
+    <div class="gd-list clear">
+        <ul class="activenav clear">
+            <li class="item clear" ng-repeat="res in $ctrl.reslist">
+                <ol>
+                    <li class="pic clear">
+                        <a href="#"><img  ng-src={{res.gimg}} alt=""></a>
+                        <p>限时8折</p>
+                        <div class="size">
+                            <span>{{res.size1}}</span>
+                            <span>{{res.size2}}</span>
+                            <span>{{res.size3}}</span>
+                            <span>{{res.size4}}</span>
+                        </div>
+                    </li>
+                    <li class="text clear"><a href="">{{res.tex}}</a></li>
+                    <li class="price clear">
+                        <span>{{res.price}}</span>
+                    </li>
+                </ol>
+            </li>
+        </ul>
+    </div>
+</div>

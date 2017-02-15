@@ -1,0 +1,287 @@
+#banner{
+  width: 1200px;
+  height: 610px;
+  margin: auto;
+  position: relative;
+  overflow: hidden;
+}
+.share{
+  width: 1200px;
+  height: 86px;
+  margin: auto;
+  ul{
+    width: 1200px;
+    height: 86px;
+    li{
+      width: 220px;
+      height: 86px;
+      float: left;
+      a{
+        width: 220px;
+        height: 86px;
+        display: block;
+        float: left;
+        overflow: hidden;
+        position: absolute;
+        transition: all 0.5s;
+      }
+      a:hover{
+        transform: translatex(-5px);
+      }
+    }
+    li:nth-of-type(1){
+      margin-left: 60px;
+      a{
+        background: url("../images/index-pic/shortcut3.jpg") no-repeat;
+      }
+    }
+    li:nth-of-type(2){
+      a{
+        background: url("../images/index-pic/shortcut3.jpg") no-repeat -220px 0;
+      }
+    }
+    li:nth-of-type(3){
+      a{
+        background: url("../images/index-pic/shortcut3.jpg") no-repeat -460px 0;
+      }
+    }
+    li:nth-of-type(4){
+      a{
+        background: url("../images/index-pic/shortcut3.jpg") no-repeat -710px 0;
+      }
+    }
+    li:nth-of-type(5){
+      a{
+        background: url("../images/index-pic/shortcut3.jpg") no-repeat -970px 0;
+      }
+    }
+  }
+}
+/*尖货推荐*/
+.goods1{
+  width: 1200px;
+  height: auto;
+  margin: auto;
+  h4{
+    width: 400px;
+    height: 40px;
+    margin: 15px auto;
+  }
+  .goods1-box{
+    width: 100%;
+    min-height: 400px;
+    float: left;
+    .pic{
+      float: left;
+    }
+    .pic:hover{
+      background-color: #0f0f0f;
+      opacity: 0.5;
+    }
+  }
+  .goods2-box{
+    width: 100%;
+    min-height: 400px;
+    float: left;
+    margin-top: 30px;
+    .pic{
+      float: left;
+    }
+    .pic:hover{
+      background-color: #0f0f0f;
+      opacity: 0.5;
+    }
+  }
+  .goods3-box{
+    width: 100%;
+    min-height: 400px;
+    float: left;
+    margin-top: 30px;
+    .pic{
+      float: left;
+    }
+    .pic:hover{
+      background-color: #0f0f0f;
+      opacity: 0.5;
+    }
+  }
+  .goods4-box{
+    width: 100%;
+    min-height: 400px;
+    float: left;
+    margin-top: 30px;
+    .pic{
+      float: left;
+    }
+    .pic:hover{
+      background-color: #0f0f0f;
+      opacity: 0.5;
+    }
+  }
+  .goods5-box{
+    width: 100%;
+    min-height: 400px;
+    float: left;
+    margin-top: 30px;
+    .pic{
+      float: left;
+    }
+    .pic:hover{
+      background-color: #0f0f0f;
+      opacity: 0.5;
+    }
+  }
+  .goods6-box{
+    width: 100%;
+    min-height: 400px;
+    float: left;
+    margin-top: 30px;
+    .pic{
+      float: left;
+    }
+    .pic:hover{
+      background-color: #0f0f0f;
+      opacity: 0.5;
+    }
+  }
+}
+
+
+.goods2{
+  width: 1200px;
+  height: auto;
+  margin:auto;
+  h4{
+    width: 400px;
+    height: 40px;
+    margin: 15px auto;
+  }
+  .goods2-box1{
+    width: 1200px;
+    height: 300px;
+    float: left;
+    div{
+      width: 600px;
+      height: 300px;
+      float: left;
+      margin-top: 40px;
+      position: relative;
+      overflow: hidden;
+      a img{
+        transition: all 1s
+      }
+      a img:hover{
+        transform: scale(1.05);
+      }
+      .beats{
+        position: absolute;
+        left: 100px;
+        top:100px;
+      }
+    }
+  }
+  .goods2-box2{
+    width: 1200px;
+    height: 300px;
+    float: left;
+    div{
+      width: 600px;
+      height: 300px;
+      float: left;
+      margin-top: 40px;
+      position: relative;
+      overflow: hidden;
+      a img{
+        transition: all 1s
+      }
+      a img:hover{
+        transform: scale(1.05);
+      }
+      .beats{
+        position: absolute;
+        left: 100px;
+        top:100px;
+      }
+    }
+  }
+  .goods2-box3{
+    width: 1200px;
+    height: 300px;
+    float: left;
+    div{
+      width: 600px;
+      height: 300px;
+      float: left;
+      margin-top: 40px;
+      position: relative;
+      overflow: hidden;
+      a img{
+        transition: all 1s
+      }
+      a img:hover{
+        transform: scale(1.05);
+      }
+      .beats{
+        position: absolute;
+        left: 100px;
+        top:100px;
+      }
+    }
+  }
+}
+
+.goods3{
+  width: 1200px;
+  height: auto;
+  margin:auto;
+  float: left;
+  h4{
+    width: 400px;
+    height: 40px;
+    margin: 60px 0 0 500px;
+  }
+  .goods3-box1{
+    width: 1200px;
+    height: 400px;
+    margin:10px 0 0 76px;
+    float: left;
+  }
+}
+
+.goods4{
+  width: 1220px;
+  height: auto;
+  margin:10px 0 0 50px;
+  float: left;
+  h4{
+    width: 400px;
+    height: 40px;
+    margin: 30px 0 10px 500px;
+  }
+  .goods4-box1{
+    width: 1200px;
+    height: auto;
+    margin:10px 0 0 28px;
+    float: left;
+    ul li{
+      float: left;
+      margin: 10px 0 10px 8px;
+      border:1px solid #fff;
+    }
+    ul li:hover{
+      border:1px solid #9d9d9d;
+    }
+  }
+}
+.goods5{
+  width: 1200px;
+  height: auto;
+  margin: 10px 0 0 28px;
+  float: left;
+  padding-bottom: 20px;
+  h4{
+    width: 400px;
+    height: 40px;
+    margin: 30px 0 10px 500px;
+  }
+}

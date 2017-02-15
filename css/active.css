@@ -1,0 +1,20 @@
+.clear:after{  content:".";  clear:both;  display: block;  height:0;  overflow:hidden;
+    visibility: hidden;  }
+.container{width: 100%;  min-height: 800px;}
+.ig{width: 1000px; height: 440px; margin: auto;}
+.xq{width: 1000px; height: 33px; margin:10px auto; background-color: #e0e0e0; line-height: 30px;}
+.xq p{width:300px;float: left; margin-left: 10px; font-weight: 900;}
+.xq a{float: right;margin-right: 10px; font-size: 14px;color:#c0c0c0}
+.gd-list{width: 1200px; min-height: 400px; margin:auto;}
+.activenav{width: 1200px; min-height: 400px; margin-left:55px;}
+.item{float: left; width: 315px; height: 520px; border:1px solid white; margin: 5px 5px 5px 30px;}
+.item:hover{border:1px solid black;}
+ol li{list-style: none;}
+.pic p{width: 313px; height: 20px; color:red; text-align: center; line-height: 20px; border: 1px solid black; color:red;}
+.size{width: 315px; height: 20px;}
+.size span{border: 1px solid black; margin-left: 20px; display: none;}
+.pic p:hover .size span{display:inline-block;}
+.text{margin-left: 20px;color:#e0e0e0;}
+.price{display: block;}
+ol li:nth-of-type(3){color: red; margin-left: 15px;}
+.clear:after{content:"."; clear:both; display: block; height:0; overflow:hidden;  visibility: hidden; }

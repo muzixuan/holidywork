@@ -1,0 +1,19 @@
+{
+  "name": "holidy-work",
+  "version": "1.0.0",
+  "description": "初始化操作",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "liyu",
+  "license": "ISC",
+  "devDependencies": {
+    "git": "^0.1.5",
+    "gulp": "^3.9.1",
+    "gulp-htmlmin": "^3.0.0",
+    "gulp-imagemin": "^3.1.1",
+    "gulp-minify-css": "^1.2.4",
+    "gulp-uglify": "^2.0.0"
+  }
+}
